@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Test Theory</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    {{ headContent() }}
+    {{ bootstrapLib() }}
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body id="app">
+    <main class="container">
+
+        <!-- Header. -->
+        <header class="row text-center">
+            <h1 class="display-4">Reliability and Measurement Error</h1>
+            <h3 class="text-muted">Test Theory</h3>
+        </header>
+
+
+
+        <hr class="after-header">
+
+
+        <section class="row">
+            <!-- Controls section. -->
+            <div id="controls" class="col-lg-3 col-md-4 col-sm-12 r">
+
+                <!-- Form elements. -->
+                <div class="control-group r">
+                    {{ true.score.variance }}
+                    {{ measurement.error.variance }}
+                </div>
+
+                <hr>
+
+                <div class="formula text-center r">
+                    R<sub>XX</sub> = <sup>S<sup>2</sup><sub>T</sub></sup>&frasl;<sub>S<sup>2</sup><sub>X</sub></sub> = <sup>S<sup>2</sup><sub>T</sub></sup>&frasl;(<sub>S<sup>2</sup><sub>T</sub></sub> + <sub>S<sup>2</sup><sub>E</sub></sub>)
+                </div>
+
+                <hr>
+
+                <!-- Key message. -->
+                <div class="key-message text-center r">
+                    Reliability is the property of a test applied to a certain population.
+                </div>
+            </div>
+
+
+
+            <!-- Plot section. -->
+            <div id="plot" class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-1 text-center shadow r">{{ plot }}</div>
+        </section>
+
+
+        <hr class="after-header">
+
+        <!-- Footer. -->
+        <footer class="row">
+            <div class="col-md-12 text-center">
+                Source code available on GitHub @ <a
+                    href="https://github.com/mihaiconstantin/workshop-building-r-packages">mihaiconstantin/reliability-measurement-error</a>.
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
