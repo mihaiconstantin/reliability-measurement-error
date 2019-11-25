@@ -63,7 +63,7 @@ app.plot <- function(ui.input) {
         par(mar = c(2, 2, 2, 2))
 
         # Create axes for plot.
-        plot(x = seq(-2, 2, .1), y = seq(-2, 2, .1), type = "n", xlab = "", ylab = "", main = "Theoretical Reliability")
+        plot(x = seq(-2, 2, .1), y = seq(-2, 2, .1), type = "n", xlab = "", ylab = "", main = "Theoretical Reliability", bty = "n")
 
         # Draw true score variance.
         draw.circle(0, 0, normalize(ui.input$true.score.variance), col = ..GRAPHICS..$col.blue, border = ..GRAPHICS..$col.blue, lwd = 2)
