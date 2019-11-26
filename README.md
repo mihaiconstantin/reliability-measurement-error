@@ -8,6 +8,7 @@ Developed for the Test Theory course at Tilburg University.
 
 A live version of the application is hosted at: [https://maconstantin.shinyapps.io/reliability-measurement-error](https://maconstantin.shinyapps.io/reliability-measurement-error).
 
+![Demo Image](./www/img/demo.png "Demo Live Application")
 
 ### Usage
 
