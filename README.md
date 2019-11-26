@@ -6,10 +6,12 @@
 A Shiny app used to illustrates the relationship between reliability and measurement error.
 Developed for the Test Theory course at Tilburg University.
 
+A live version of the application is hosted at: [https://maconstantin.shinyapps.io/reliability-measurement-error](https://maconstantin.shinyapps.io/reliability-measurement-error).
+
 
 ### Usage
 
-To run the application:
+To run the application locally:
 
 ```r
 # Load library.
