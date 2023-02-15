@@ -18,6 +18,7 @@
 
 # Server function.
 server <- function(input, output) {
+    # Plot output.
     output$appPlot <- renderPlot({
         app.plot(input)
     })
