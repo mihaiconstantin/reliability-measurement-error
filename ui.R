@@ -45,6 +45,11 @@ ui <- htmlTemplate("www/index.html",
         value = 50,
         step = 1,
         width = "100%"
+    ),
+
+    # Formula for the reliability.
+    reliability.formula = withMathJax(
+        "$$R_{XX} = \\frac{S^{2}_{T}}{S^{2}_{X}} = \\frac{S^{2}_{T}}{S^{2}_{T} + S^{2}_{E}}$$"
     )
 )
 
